@@ -1,0 +1,29 @@
+body{
+    background-color: rgba(162, 113, 207, 0.691);
+}
+
+
+.contenedorpadre {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 650px;
+}
+
+.item{
+    background-color:  rgba(122, 230, 194, 0.787);
+    border: 15px;
+    width: 150px;
+}
+
+img{
+    height: 100px;
+}
+
+
+.fiona{
+    order:0;
+}
